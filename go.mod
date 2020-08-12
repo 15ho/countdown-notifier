@@ -1,4 +1,4 @@
-module github.com/15ho/countdown
+module github.com/15ho/countdown-notifier
 
 go 1.14
 

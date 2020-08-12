@@ -7,7 +7,7 @@
 Specify duration in go format `1h2m3s`.
 
 ```bash
-countdown 25s
+countdown-notifier 25s
 ```
 
 End of countdown:
@@ -24,7 +24,7 @@ End of countdown:
 ```bash
 brew install terminal-notifier
 
-go get github.com/15ho/countdown
+go get github.com/15ho/countdown-notifier
 ```
 
 ## License
