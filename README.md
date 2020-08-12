@@ -24,7 +24,7 @@ End of countdown:
 ```bash
 brew install terminal-notifier
 
-go get github.com/antonmedv/countdown
+go get github.com/15ho/countdown
 ```
 
 ## License

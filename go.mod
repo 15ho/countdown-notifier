@@ -1,4 +1,4 @@
-module github.com/antonmedv/countdown
+module github.com/15ho/countdown
 
 go 1.14
 
