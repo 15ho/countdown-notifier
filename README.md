@@ -10,11 +10,8 @@ Specify duration in go format `1h2m3s`.
 countdown 25s
 ```
 
-Add command with `&&` to run after countdown.
-
-```bash
-countdown 1m30s && say "Hello, world"
-```
+End of countdown:
+![notice-screenshot](notice.jpg)
 
 ## Key binding
 
@@ -25,6 +22,8 @@ countdown 1m30s && say "Hello, world"
 ## Install
 
 ```bash
+brew install terminal-notifier
+
 go get github.com/antonmedv/countdown
 ```
 

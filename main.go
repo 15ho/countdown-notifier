@@ -90,7 +90,7 @@ loop:
 				start(left)
 			}
 		case <-ticker.C:
-			left -= time.Duration(tick)
+			left -= tick
 			draw(left)
 		case <-timer.C:
 			break loop
@@ -104,6 +104,9 @@ loop:
 }
 
 func main() {
+	checkTerminalNotifier()
+	defer notice()
+
 	if len(os.Args) != 2 {
 		stderr(usage)
 		os.Exit(2)
